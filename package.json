@@ -1,0 +1,23 @@
+{
+  "name": "passport-sheknows",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "Passport adapter for SheKnows Connect",
+  "keywords": [ "passport", "sheknows", "auth" ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sheknows/passport-sheknows.git"
+  },
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": { "node": ">= 0.4.0" }
+}
