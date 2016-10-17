@@ -3,6 +3,8 @@
 [Passport](http://passportjs.org/) strategy for authenticating with
 [SheKnows Connect](https://connect.sheknows.com/) using the OAuth 2.0 API.
 
+[![Build Status](http://drone.sheknows.com:8000/api/badges/sheknows/passport-sheknows/status.svg)](http://drone.sheknows.com:8000/sheknows/passport-sheknows)
+
 This module lets you authenticate using SheKnows in your Node.js applications.
 By plugging into Passport, SheKnows authentication can be easily and
 unobtrusively integrated into any application or framework that supports
@@ -54,10 +56,12 @@ application:
 
 ## Tests
 
-    $ npm install --dev
-    $ make test
+Run the test suite:
+```
+$ npm install --dev
+$ npm test
+```
 
-[![Build Status](https://secure.travis-ci.org/sheknows/passport-sheknows.png)](http://travis-ci.org/sheknows/passport-sheknows)
 
 ## Credits
 

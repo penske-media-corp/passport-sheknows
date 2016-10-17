@@ -1,0 +1,9 @@
+pipeline:
+    test:
+        commands:
+            - "npm install -g npm"
+            - "npm install"
+            - "npm test"
+        image: "node:argon"
+        when:
+            event: ['push', 'pull_request']
