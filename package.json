@@ -1,6 +1,6 @@
 {
   "name": "passport-sheknows",
-  "version": "1.0.0-0",
+  "version": "1.0.0-1",
   "license": "MIT",
   "description": "Passport adapter for SheKnows Connect",
   "keywords": [
