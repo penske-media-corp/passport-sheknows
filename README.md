@@ -17,6 +17,12 @@ unobtrusively integrated into any application or framework that supports
 
 ## Usage
 
+#### Obtaining Client ID and Client Secret
+
+- Head to [staging](http://staging-connect.sheknows.com/administration/clients/) or [production](http://connect.sheknows.com/administration/clients/) Connect client administration.
+- Add a new client
+- Once created, Client and Client Secret will be generated for you
+
 #### Configure Strategy
 
 The SheKnows authentication strategy authenticates users using a SheKnows account
