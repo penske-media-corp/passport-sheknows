@@ -1,8 +1,8 @@
 {
   "name": "passport-sheknows",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "license": "MIT",
-  "description": "Passport adapter for SheKnows Connect",
+  "description": "Atlas SSO",
   "keywords": [
     "passport",
     "sheknows",
