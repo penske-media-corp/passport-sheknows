@@ -2,7 +2,7 @@
   "name": "passport-sheknows",
   "version": "2.0.0",
   "license": "MIT",
-  "description": "Atlas SSO",
+  "description": "Passport adapter for Atlas SSO",
   "keywords": [
     "passport",
     "sheknows",
