@@ -10,7 +10,7 @@ describe('sheknows-passport user profile', function () {
           }, function() {});
       
         strategy._oauth2.get = function(url, accessToken, callback) {
-            if (url != 'https://connect.sheknows.com/me.json') {
+            if (url != 'https://atlas-sso.pmc.com/api/me') {
                 return callback(new Error('incorrect url argument'));
             }
             
@@ -37,13 +37,11 @@ describe('sheknows-passport user profile', function () {
         it('should parse profile', function () {
             expect(profile.provider).to.eql('sheknows');
             expect(profile.id).to.eql(123);
-            expect(profile.username).to.eql('test.user');
             expect(profile.displayName).to.eql('Test User');
             expect(profile.firstname).to.eql('Test');
             expect(profile.lastname).to.eql('User');
             expect(profile.email).to.eql('test.user@example.com');
             expect(profile.emails).to.eql(['test.user@example.com']);
-            expect(profile.avatar).to.eql('http://cdn.skim.gs/image/upload/v1476309514/avatars/blue_solidbkrnd_rev_uflgox.png');
             expect(profile.roles).to.eql(['ROLE_USER']);
         });
 

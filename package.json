@@ -6,6 +6,9 @@
   "keywords": [
     "passport",
     "sheknows",
+    "pmc",
+    "atlas",
+    "atlas-sso",
     "auth"
   ],
   "repository": {
@@ -25,6 +28,6 @@
     "test": "mocha tests/"
   },
   "engines": {
-    "node": ">= 0.4.0"
+    "node": ">= 10.0.0"
   }
 }
